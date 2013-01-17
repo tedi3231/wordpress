@@ -1,6 +1,6 @@
 <h2 id="POST_<?php the_ID(); ?>">
 	<a href="<?php the_permalink(); ?>" rel="bookmark" alt="link to post <?php the_title();?>" >
-		<span class="title"><?php the_title();?></span>
+		<span class="title"><?php the_title(' { ',' } ',display);?></span>
 	</a>
 	<small>
 		<span class="date"><?php the_date(); ?></span>
