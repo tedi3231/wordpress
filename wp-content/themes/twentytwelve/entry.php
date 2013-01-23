@@ -8,6 +8,6 @@
 		<!--more-->
 	</small>
 </h2>
-<div class="entry" style="background-color:#666222;padding:10px 0px 10px 10px;">
+<div class="entry" style="background-color:#3f3f3f;color:white;padding:10px 0px 10px 10px;">
 	<?php  the_content();?>
 </div>
