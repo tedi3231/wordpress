@@ -3,9 +3,11 @@
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <title><?php bloginfo("name"); ?></title>
-        <?php include("includescript.php"); ?>
+        <?php
+			include ("includescript.php");
+ ?>
 </head>
-<body>
+<body> 
 
   <!-- START HEADER -->
   <div class="header head-pat6">
@@ -18,7 +20,9 @@
                 </div>
                 <!-- END LOGO -->
                 <!-- START NAVIGATION -->
-                <?php include("menu.php");?>
+                <?php
+					include ("menu.php");
+				?>
                 <!-- END NAVIGATION -->
             </div>
             <!-- END HEADING -->
@@ -59,7 +63,7 @@
                 </div>
             </div>
     </div>
-    <?php endif;?>
+    <?php endif; ?>
     <!-- END SLIDER -->
 </div>
 <!-- END Healder -->

@@ -38,6 +38,17 @@
  * @since Twenty Eleven 1.0
  */
 
+add_action('init','prowp_register_my_post_types');
+
+function prowp_register_my_post_types(){
+    register_post_type('products',array(
+        'labels' => array(
+            'name' => 'Products'
+        ),
+        'public' => true,
+    ));
+}
+
 /**
  * Set the content width based on the theme's design and stylesheet.
  */

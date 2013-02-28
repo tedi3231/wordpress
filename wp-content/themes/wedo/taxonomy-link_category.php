@@ -4,6 +4,20 @@
 	<img src="<?php bloginfo('template_url');?>/images/banner3.png"></div>
 <!-- END TOP -->
 <!-- START MAIN -->
+<!-- test -->
+<?php
+    //print_r(@get_defined_constants());
+?>
+<?php
+    if( have_posts()){
+        while(have_posts()){
+            //echo 'one <br/>';
+            echo 'a';
+            the_post();
+        }
+        //echo "have posts";
+    } 
+?>
 <div class="main">
 	<div class="container_12">
 		<div class="grid_12">

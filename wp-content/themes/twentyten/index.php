@@ -14,8 +14,20 @@
  */
 
 get_header(); ?>
+<?php
+        $args = array('posts_per_page'=>-1,
+                'post_type'=>'Events'
+            );
+        $myevents = new WP_Query($args);
+        while($myevents->have_posts()):$myevents->the_post();
+?>
+                <?php the_title(); ?>
+<?php
+        endwhile;
+        wp_reset_postdata();
+?>
 
-		<div id="container">
+<div id="container">
 			<div id="content" role="main">
 
 			<?php

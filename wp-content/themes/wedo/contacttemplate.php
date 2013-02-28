@@ -5,7 +5,6 @@
     */
 ?>
 <?php get_header();?>
-
 <div class="top-single">
     <img src="<?php bloginfo("template_url"); ?>/images/banner4.png"></div>
 <div class="main">

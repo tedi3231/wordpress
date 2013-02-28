@@ -38,6 +38,7 @@
  * @since Twenty Ten 1.0
  */
 
+
 /**
  * Set the content width based on the theme's design and stylesheet.
  *
@@ -286,6 +287,16 @@ function twentyten_custom_excerpt_more( $output ) {
 	return $output;
 }
 add_filter( 'get_the_excerpt', 'twentyten_custom_excerpt_more' );
+
+function twenty_custom_add_prefix($content){
+	return $content .'<h1>this is content filter </h1>';
+}
+add_filter('the_content','twenty_custom_add_prefix');
+
+function twenty_custom_sendmail_when_comment_post(){
+	wp_mail('tedi3231@gmaill.com','this is wordpress comment sending email','this is test');
+}
+add_action('comment_post','twenty_custom_sendmail_when_comment_post');
 
 /**
  * Remove inline styles printed when the gallery shortcode is used.

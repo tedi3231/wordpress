@@ -21,10 +21,10 @@ define('DB_NAME', 'wordpress');
 define('DB_USER', 'root');
 
 /** MySQL 数据库密码 */
-define('DB_PASSWORD', 'p@ssw0rd');
+define('DB_PASSWORD', 'loveyuanyuan');
 
 /** MySQL 主机 */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
@@ -41,14 +41,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'q87i6a?zyK:@J)Gnv39-AB-HwB.@(U|h|rHU?V(==CN-`{J%^A]T)@5!_Io#HJt2');
-define('SECURE_AUTH_KEY',  ')%chV0o-_*|i:9!o7QhvO}O8R.*3l3pb><q^bsn:2pfcGSlN@DzgJe]>eUj=/7cq');
-define('LOGGED_IN_KEY',    '?@KT;p;rz#XdSho;z$]Kz+PHQ_d~?Zfj2/yA*U-R0~eRK!qxyqTRx8+Ju {;u,e(');
-define('NONCE_KEY',        'r~@Cbc/ANk =}j8y#i^C6J^pAaLT_n1c{{yK-@DOU--NNi+z%5X5Rq=G[sA=0Kr{');
-define('AUTH_SALT',        '*aea)c[>Vhf.f!CArS7QA4t_UiFDX4sg68KA#`On1~oOmv;`D`a%eid}MS[k3Clt');
-define('SECURE_AUTH_SALT', ':J`pC]:#[b9VP5AxaG4yxx1#N9mKq,d7AIJblVZh;G%{#(3xxb=W#)4buMs&2x=Y');
-define('LOGGED_IN_SALT',   'c~zJx|X#p0T|7>#eUl$&VE/X&t[;R=-+4Nw%LKvG5M^*{$kBv{(3<>1~{`444P@`');
-define('NONCE_SALT',       ')S1y%7W-8u-r@|9GJ_Ly|]-oSj$noLFH?HlwyG+ulKHoDvMSL~i&e7g{tX2*xV6G');
+define('AUTH_KEY',         '3&>lR,K$Q4`;bXlM{ @F5YRW`3crN0Oq)&<_yyX3ks;]<If6G+iX1,wb>P1HH*C4');
+define('SECURE_AUTH_KEY',  '{3MR(Y*81wc%#/z(`8ka1_!G%u5g~HQPnTgzrfEp}3S]0)>AjOfn;7%@Q!no6RYb');
+define('LOGGED_IN_KEY',    'c(3!(&*W(VJa;dXh>W{}]/WoizoA{Tpq Yl|Iv.!tz?XZzg(30}o+B6vxw_J;nf}');
+define('NONCE_KEY',        'f+R8b4s63+U)W<7GqK/^2m)&?YIA0s>71V`OzDcA$7Q5nbO?7);F2;yw8k?0Pg? ');
+define('AUTH_SALT',        'qSltQLJ}gPm42{2rqTZp@ k|@:s(:HX(N*qN`7kJ;,s2j$R.10DB 7.[<xE<7bLt');
+define('SECURE_AUTH_SALT', '~<eJL*qLap7./|hvhqQF10{2*t*tje/!%q.E[MSBl|IL-4)B#<mYo9VYm)m?<V|X');
+define('LOGGED_IN_SALT',   '`h<}r:)3@32n#RwHigPz?AkT!m_cQj/vxi [gFAkxd14x.;n  cQ7(V[bt)Ab!oc');
+define('NONCE_SALT',       '^f;k|;B;2sU+~f`cX*GCqEPp4CgkPleg1P_!GPeZq4pA=sa_PeOcw8z#m_OP .c ');
 
 /**#@-*/
 
@@ -75,7 +75,7 @@ define('WPLANG', 'zh_CN');
  * 将这个值改为“true”，WordPress 将显示所有用于开发的提示。
  * 强烈建议插件开发者在开发环境中启用本功能。
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /* 好了！请不要再继续编辑。请保存本文件。使用愉快！ */
 
@@ -85,4 +85,3 @@ if ( !defined('ABSPATH') )
 
 /** 设置 WordPress 变量和包含文件。 */
 require_once(ABSPATH . 'wp-settings.php');
-?>
