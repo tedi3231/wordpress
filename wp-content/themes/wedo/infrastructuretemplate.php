@@ -1,7 +1,7 @@
 <?php
    /**
     *My first custom template
-    *Template name:AboutTemplate
+    *Template name:Infrastructure
     */
 ?>
 <?php get_header();?>
