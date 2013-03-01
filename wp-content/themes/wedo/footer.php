@@ -28,8 +28,8 @@
                     </ul>
                 </div>
                 <div class="grid_3">
-                   <!-- <h1>Newsletter</h1>
-                    <div class="subscribe-form">
+                    <h1>Social</h1>
+                    <!--<div class="subscribe-form">
                         <form class="cmxform" id="subscribeForm" method="post" action="#">
                             <fieldset>
                                 <div>
