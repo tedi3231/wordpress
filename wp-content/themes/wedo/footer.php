@@ -10,12 +10,11 @@
                 <div class="grid_3">
                     <h1>Quick navigation</h1>
                     <ul class="footer-list">
-                        <li class="two-col"><a href="index.html">Home</a></li>
-                        <li class="two-col"><a href="contact.html">About</a></li>
-                        <li class="two-col"><a href="portfolio-three-column.html">Infrastructure</a></li>
-                        <li class="two-col"><a href="blog-left-sidebar.html">Applications</a></li>
-                        <li class="two-col"><a href="contact.html">Partners</a></li>
-                        <li class="two-col"><a href="contact.html">Contact</a></li>
+                        <li class="two-col"><a href="/">Home</a></li>
+                        <li class="two-col"><a href="<?php bloginfo('url');?>/?page_id=5">About</a></li>
+                        <li class="two-col"><a href="<?php bloginfo('url');?>/?page_id=24">Infrastructure</a></li>
+                        <li class="two-col"><a href="<?php bloginfo('url');?>/?taxonomy=link_category&term=partner_integrated">Partners</a></li>
+                        <li class="two-col"><a href="<?php bloginfo('url'); ?>/?page_id=7">Contact</a></li>
                     </ul>
                 </div>
                 <div class="grid_3">
@@ -29,7 +28,7 @@
                     </ul>
                 </div>
                 <div class="grid_3">
-                    <h1>Newsletter</h1>
+                   <!-- <h1>Newsletter</h1>
                     <div class="subscribe-form">
                         <form class="cmxform" id="subscribeForm" method="post" action="#">
                             <fieldset>
@@ -40,20 +39,22 @@
                                 <button type="submit" class="btn subscribe-button"><span>Subscribe</span></button>
                             </fieldset>
                         </form>
-                    </div>
+                    </div>-->
                     <div class="social-icons">
                         <ul class="social-icons-list">
-                            <li><a href="http://flickr.com"><img class="tiptip" title="Visit my Flickr" src="<?php bloginfo('template_url');?>/images/content/footer-social-icons/flickr.png" alt=""/></a></li>
+                            <li><a href="http://www.linkedin.com/company/2404278"><img class="tiptip" title="Visit my Linkedin" src="<?php bloginfo('template_url');?>/images/content/footer-social-icons/linkedin.png" alt=""/></a></li>
+
+                            <!--<li><a href="http://flickr.com"><img class="tiptip" title="Visit my Flickr" src="<?php bloginfo('template_url');?>/images/content/footer-social-icons/flickr.png" alt=""/></a></li>
                             <li><a href="http://facebook.com/themeton"><img class="tiptip" title="Visit my Facebook" src="<?php bloginfo('template_url');?>/images/content/footer-social-icons/facebook.png" alt=""/></a></li>
                             <li><a href="http://www.youtube.com/olziinaa"><img class="tiptip" title="Visit my Youtube" src="<?php bloginfo('template_url');?>/images/content/footer-social-icons/youtube.png" alt=""/></a></li>
                             <li><a href="http://www.whatisrss.com/"><img class="tiptip" title="Subscribe my RSS FEED" src="<?php bloginfo('template_url');?>/images/content/footer-social-icons/feed.png" alt=""/></a></li>
-                            <li><a href="http://www.linkedin.com"><img class="tiptip" title="Visit my Linkedin" src="<?php bloginfo('template_url');?>/images/content/footer-social-icons/linkedin.png" alt=""/></a></li>
                             <li><a href="http://www.last.fm"><img class="tiptip" title="Visit my LastFM" src="<?php bloginfo('template_url');?>/images/content/footer-social-icons/lastfm.png" alt=""/></a></li>
                             <li><a href="http://www.myspace.com"><img class="tiptip" title="Visit my My Space" src="<?php bloginfo('template_url');?>/images/content/footer-social-icons/myspace.png" alt=""/></a></li>
                             <li><a href="http://www.mixx.com"><img class="tiptip" title="Visit my Mixx" src="<?php bloginfo('template_url');?>/images/content/footer-social-icons/mixx.png" alt=""/></a></li>
                             <li><a href="http://twitter.com/themeton"><img class="tiptip" title="Visit my Twitter" src="<?php bloginfo('template_url');?>/images/content/footer-social-icons/twitter.png" alt=""/></a></li>
                             <li><a href="http://www.tumblr.com/"><img class="tiptip" title="Visit my Thmblr" src="<?php bloginfo('template_url');?>/images/content/footer-social-icons/tumblr.png" alt=""/></a></li>
                             <li><a href="https://posterous.com/"><img class="tiptip" title="Visit my Posterous" src="<?php bloginfo('template_url');?>/images/content/footer-social-icons/posterous.png" alt=""/></a></li>
+                            -->
                         </ul>
                     </div>
                 </div>
