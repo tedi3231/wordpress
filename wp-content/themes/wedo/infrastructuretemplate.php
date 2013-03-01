@@ -107,31 +107,6 @@
                                     <li style="font-size:14px"><a href="#">www.wedoforce.com</a></li>
                                 </ul>
                             </div>
-                            <div class="sidebar-widget">
-                                <h1>Downloads</h1>
-                                <ul class="">
-                                    <li class="">
-                                        <div class="date">
-                                        <img src="images/download.png" />
-                                        </div>
-                                         <div class="post-data"><a href="#">abcdef sdfsdfsdf dsfsfsdfs.pdf</a></div>
-                                        <div class="clear"></div>
-                                    </li>
-                                    <li class="">
-                                        <div class="date">                                        <img src="images/download.png" />
-                                        </div>
-                                         <div class="post-data"><a href="#">abcdef sdfsdfsdf dsfsfsdfs.pdf</a></div>
-                                        <div class="clear"></div>
-                                    </li>
-                                    <li class="">
-                                        <div class="date">                                        <img src="images/download.png" />
-                                        </div>
-                                         <div class="post-data"><a href="#">abcdef sdfsdfsdf dsfsfsdfs.pdf</a></div>
-                                        <div class="clear"></div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
                         <div class="sidebar-bottom"></div>
                     </div>
                 </div>
