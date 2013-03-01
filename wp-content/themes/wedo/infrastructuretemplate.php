@@ -49,7 +49,7 @@
                                         foreach ( (array)$bookmarks as $bookmark ) :
                                     ?>
                                     <li style="font-size:14px"><a href="<?php echo $bookmark->link_url;?>" target="<?php echo $bookmark->link_target; ?>">
-                                            <?php echo $bookmark->link_name; ?>" />
+                                            <?php echo $bookmark->link_name; ?>
                                         </a>
                                     </li>
                                     <?php
