@@ -90,10 +90,10 @@
                                 <h1>Infrastructure</h1>
                                 <ul class="">
                                     <li style="font-size:14px;"><a href="#"><img src="<?php bloginfo('template_url')?>/images/content/icons/network.png" />Network</a></li>
-                                    <li style="font-size:14px"><a href="#"><img src="images/content/icons/storage.png" />Storage</a></li>
-                                    <li style="font-size:14px"><a href="#"><img src="images/content/icons/security.png" />Security</a></li>
-                                    <li style="font-size:14px"><a href="#"><img src="images/content/icons/monitor.png" />Monitor</a></li>
-                                    <li style="font-size:14px"><a href="#"><img src="images/content/icons/solution_inf.png" />Solutions</a>
+                                    <li style="font-size:14px"><a href="#"><img src="<?php bloginfo('template_url')?>/images/content/icons/storage.png" />Storage</a></li>
+                                    <li style="font-size:14px"><a href="#"><img src="<?php bloginfo('template_url')?>/images/content/icons/security.png" />Security</a></li>
+                                    <li style="font-size:14px"><a href="#"><img src="<?php bloginfo('template_url')?>/images/content/icons/monitor.png" />Monitor</a></li>
+                                    <li style="font-size:14px"><a href="#"><img src="<?php bloginfo('template_url')?>/images/content/icons/solution_inf.png" />Solutions</a>
                                     <ul>
                                     <li style="font-size:12px; margin-left:38px;"><a href="#">FlexCube</a></li>
                                     </ul>
