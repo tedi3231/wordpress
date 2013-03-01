@@ -31,7 +31,7 @@
 		'show_count'   => 10,
 		'hide_empty'   => 0,
                 'orderby'=>'name',
-                'order'=>'ASC'
+                'order'=>'DESC'
 	);
 	$link_categories = get_categories($args);
 	foreach($link_categories as $cat) {
