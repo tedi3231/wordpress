@@ -89,7 +89,7 @@
                             <div class="sidebar-widget">
                                 <h1>Infrastructure</h1>
                                 <ul class="">
-                                    <li style="font-size:14px;"><a href="#"><img src="images/content/icons/network.png" />Network</a></li>
+                                    <li style="font-size:14px;"><a href="#"><img src="<?php bloginfo('template_url')?>/images/content/icons/network.png" />Network</a></li>
                                     <li style="font-size:14px"><a href="#"><img src="images/content/icons/storage.png" />Storage</a></li>
                                     <li style="font-size:14px"><a href="#"><img src="images/content/icons/security.png" />Security</a></li>
                                     <li style="font-size:14px"><a href="#"><img src="images/content/icons/monitor.png" />Monitor</a></li>
