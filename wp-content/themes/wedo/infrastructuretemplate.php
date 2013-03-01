@@ -44,8 +44,17 @@
                             <div class="sidebar-widget">
                                 <h1>Links</h1>
                                 <ul class="">
-                                    <li style="font-size:14px"><a href="#">www.wedoapp.com</a></li>
-                                    <li style="font-size:14px"><a href="#">www.wedoforce.com</a></li>
+                                    <?php 
+                                        $bookmarks = get_bookmarks(array("category" => '5'));
+                                        foreach ( (array)$bookmarks as $bookmark ) :
+                                    ?>
+                                    <li style="font-size:14px"><a href="<?php echo $bookmark->link_url;?>" target="<?php echo $bookmark->link_target; ?>">
+                                            <?php echo $bookmark->link_name; ?>" />
+                                        </a>
+                                    </li>
+                                    <?php
+                                        endforeach;
+                                    ?> 
                                 </ul>
                             </div>
                         <div class="sidebar-bottom"></div>
