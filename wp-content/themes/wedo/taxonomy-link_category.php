@@ -30,6 +30,8 @@
 		'taxonomy' =>'link_category',
 		'show_count'   => 10,
 		'hide_empty'   => 0,
+                'orderby'=>'name',
+                'order'=>'ASC'
 	);
 	$link_categories = get_categories($args);
 	foreach($link_categories as $cat) {

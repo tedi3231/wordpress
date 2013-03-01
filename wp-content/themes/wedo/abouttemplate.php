@@ -17,11 +17,6 @@
                         <?php while(have_posts()):the_post();?>
                             <h3>WEDO Application Co., Ltd.</h3>
                             <?php the_content();?>
-<?php
-    global $current_user;
-    echo($current_user->display_name);
-    //echo $post->post_title;
-?>
                         <?php endwhile;?>
                     <?php endif;?>
                 </div>
