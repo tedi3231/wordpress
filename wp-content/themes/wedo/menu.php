@@ -28,12 +28,12 @@
                         </li>
                     </ul>
                 </li>-->
-                <li><a href="<?php bloginfo('url');?>/?page_id=20">About wedoapp</a>
+                <li><a href="<?php bloginfo('url');?>/?page_id=5">About wedoapp</a>
                     
                 </li>
                 <li><a href="<?php bloginfo('url');?>/?taxonomy=link_category&term=partner_integrated">Partners</a>
                 </li>
-                <li><a href="<?php bloginfo('url'); ?>/?page_id=56 ">Contact</a></li>
+                <li><a href="<?php bloginfo('url'); ?>/?page_id=7">Contact</a></li>
             </ul>
             <br style="clear: left" />
       </div>
