@@ -2,17 +2,17 @@
         <div id="smoothmenu1" class="ddsmoothmenu">
             <ul>
                 <li><a href="<?php bloginfo('url');?>">Home</a></li>
-                <li><a href="infrastructure.html">Infrastructure</a>
+                <li><a href="<?php bloginfo('url');?>/?page_id=24">Infrastructure</a>
                     <ul>
-                        <li><a href="network.html">Network</a></li>
-                        <li><a href="storage.html">Storage</a></li>
-                        <li><a href="security.html">Security</a></li>
-                        <li><a href="monitor.html">Monitor</a></li>
-                        <li><a href="Inf_solutions.html">Solutions</a>
-                        <ul>
+                        <li><a href="<?php bloginfo('url');?>/?page_id=37">Network</a></li>
+                        <li><a href="<?php bloginfo('url');?>/?page_id=44">Storage</a></li>
+                        <li><a href="<?php bloginfo('url');?>/?page_id=52">Security</a></li>
+                        <!--<li><a href="<?php bloginfo('url');?>/?page_id=24">Monitor</a></li>-->
+                        <li><a href="<?php bloginfo('url');?>/?page_id=58">IT Management</a>
+                        <!--<ul>
                                 <li><a href="flexcube.html">FlexCube</a></li>
                                 <li><a href="#.html">11111</a></li>
-                          </ul>
+                          </ul>-->
                         </li>
                     </ul>
                 </li>
