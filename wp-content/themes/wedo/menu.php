@@ -16,7 +16,7 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="applications.html">Applications</a>
+                <!-- <li><a href="applications.html">Applications</a>
                     <ul>
                         <li><a href="workflow.html">Workflow Product</a></li>
                         <li><a href="T&E.html">T&E Expense</a></li>
@@ -27,7 +27,7 @@
                           </ul>
                         </li>
                     </ul>
-                </li>
+                </li>-->
                 <li><a href="<?php bloginfo('url');?>/?page_id=20">About wedoapp</a>
                     
                 </li>
