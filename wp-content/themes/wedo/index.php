@@ -28,7 +28,7 @@
                 </p>
             </div>
         </div>
-        <!--<div class="grid_4">
+        <div class="grid_4">
             <div class="services">
                 <h2 style="text-align:center";>WEDOAPP APPLICATIONS</h2>
                 <img src="<?php bloginfo('template_url');?>/images/content/icons/home/64/applications.png" alt=""/>
@@ -36,7 +36,7 @@
                     Amplify your datacenter’s efficiency and agility while enhancing security and control with a private cloud from VMware. Consolidate datacenters and deploy workloads on shared infrastructure with built-in security and role-based access control. Migrate workloads between pools of infrastructure and integrate existing management systems using customer extensions, APIs, and open cross-cloud standards. .
                 </p>
             </div>
-        </div>-->
+        </div>
         <div class="grid_4">
             <div class="services">
                 <h2 style="text-align:center";>ABOUT WEDOAPP</h2>
