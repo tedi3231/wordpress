@@ -15,6 +15,7 @@
 
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress 数据库的名称 */
+//new database
 define('DB_NAME', 'wedoweb');
 
 /** MySQL 数据库用户名 */
