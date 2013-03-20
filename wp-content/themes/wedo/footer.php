@@ -8,27 +8,26 @@
         <div class="footer-bottom head-pat6">
             <div class="container_12">
                 <div class="grid_3">
-                    <h1>Quick navigation</h1>
+                    <h1><?php _e("Quick navigation","wedo") ?></h1>
                     <ul class="footer-list">
-                        <li class="two-col"><a href="/">Home</a></li>
-                        <li class="two-col"><a href="<?php bloginfo('url');?>/?page_id=5">About</a></li>
-                        <li class="two-col"><a href="<?php bloginfo('url');?>/?page_id=24">Infrastructure</a></li>
-                        <li class="two-col"><a href="<?php bloginfo('url');?>/?taxonomy=link_category&term=partner_integrated">Partners</a></li>
-                        <li class="two-col"><a href="<?php bloginfo('url'); ?>/?page_id=7">Contact</a></li>
+                        <li class="two-col"><a href="/"><?php _e("Home","wedo") ?></a></li>
+                        <li class="two-col"><a href="<?php bloginfo('url');?>/?page_id=5"><?php _e("About Wedoapp","wedo") ?></a></li>
+                        <li class="two-col"><a href="<?php bloginfo('url');?>/?page_id=24"><?php _e("Infrastructure","wedo") ?></a></li>
+                        <li class="two-col"><a href="<?php bloginfo('url');?>/?taxonomy=link_category&term=partner_integrated"><?php _e("Partners","wedo") ?></a></li>
+                        <li class="two-col"><a href="<?php bloginfo('url'); ?>/?page_id=7"><?php _e("Contact","wedo") ?></a></li>
                     </ul>
                 </div>
                 <div class="grid_3">
-                    <h1>Related links</h1>
+                    <h1><?php _e("Related links","wedo") ?></h1>
                     <ul class="footer-list">
                       <li><a href="http://www.wedoapp.com"> 
                           www.wedoapp.com
-</a></li>
                         <li><a href="http://www.wedoforce.com">www.wedoforce.com</a></li>
                         <li><a href="http://www.microsoft.com">www.microsoft.com</a></li>
                     </ul>
                 </div>
                 <div class="grid_3">
-                    <h1>Social</h1>
+                    <h1><?php _e("Social","wedo") ?></h1>
                     <!--<div class="subscribe-form">
                         <form class="cmxform" id="subscribeForm" method="post" action="#">
                             <fieldset>
@@ -59,8 +58,8 @@
                     </div>
                 </div>
                 <div class="grid_3">
-                    <h1>Location</h1>
-                    <span class="address">12A , Yan Dang Plaza, No.107, Yan Dang Rd, Shanghai 200020, China. </span>
+                    <h1><?php _e("Location","wedo") ?></h1>
+                    <span class="address"><?php _e("12A , Yan Dang Plaza, No.107, Yan Dang Rd, Shanghai 200020, China.","wedo") ?></span>
                     <span class="phone">+8621 61701598</span>
                     <span class="mail">Contact@wedoapp.com</span>
                 </div>
@@ -78,6 +77,5 @@
         <!-- END SUB-FOOTER -->
 
 </body>
-</html>
         <script type="text/javascript"> Cufon.now(); </script>
 </html>

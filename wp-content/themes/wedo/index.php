@@ -21,7 +21,7 @@
     <div class="container_12">
         <div class="grid_4">
             <div class="services">
-                <h2 style="text-align:center";>WEDOAPP INFRASTRUCTURE</h2>
+                <h2 style="text-align:left;padding-left:35px;";><?php _e("WEDOAPP INFRASTRUCTURE","wedo") ?></h2>
                 <img src="<?php bloginfo('template_url');?>/images/content/icons/home/64/infrastructure.png" alt=""/>
                 <p>
                     Amplify your datacenter’s efficiency and agility while enhancing security and control with a private cloud from VMware. Consolidate datacenters and deploy workloads on shared infrastructure with built-in security and role-based access control. Migrate workloads between pools of infrastructure and integrate existing management systems using customer extensions, APIs, and open cross-cloud standards.
@@ -30,7 +30,7 @@
         </div>
         <div class="grid_4">
             <div class="services">
-                <h2 style="text-align:center";>WEDOAPP APPLICATIONS</h2>
+                <h2 style="text-align:left;padding-left:35px;";><?php _e("WEDOAPP APPLICATIONS","wedo") ?></h2>
                 <img src="<?php bloginfo('template_url');?>/images/content/icons/home/64/applications.png" alt=""/>
                 <p>
                     Amplify your datacenter’s efficiency and agility while enhancing security and control with a private cloud from VMware. Consolidate datacenters and deploy workloads on shared infrastructure with built-in security and role-based access control. Migrate workloads between pools of infrastructure and integrate existing management systems using customer extensions, APIs, and open cross-cloud standards. .
@@ -39,7 +39,7 @@
         </div>
         <div class="grid_4">
             <div class="services">
-                <h2 style="text-align:center";>ABOUT WEDOAPP</h2>
+                <h2 style="text-align:left;padding-left:35px;";><?php _e("About Wedoapp","wedo") ?></h2>
                 <img src="<?php bloginfo('template_url');?>/images/content/icons/home/64/about.png" alt=""/>
                 <p>
                     Amplify your datacenter’s efficiency and agility while enhancing security and control with a private cloud from VMware.Consolidate datacenters and deploy workloads on shared infrastructure with built-in security and role-based access control.

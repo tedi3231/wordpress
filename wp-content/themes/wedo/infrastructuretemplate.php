@@ -33,16 +33,16 @@
                     <div class="grid_3">
                         <div class="sidebar-top">
                             <div class="sidebar-widget">
-                                <h1>Infrastructure</h1>
+                                <h1><?php _e("Infrastructure","wedo"); ?></h1>
                                 <ul class="">
-                                    <li style="font-size:14px;"><a href="<?php bloginfo('url');?>/?page_id=37"><img src="<?php bloginfo('template_url')?>/images/content/icons/network.png" />Network</a></li>
-                                    <li style="font-size:14px"><a href="<?php bloginfo('url');?>/?page_id=44"><img src="<?php bloginfo('template_url')?>/images/content/icons/storage.png" />Storage</a></li>
-                                    <li style="font-size:14px"><a href="<?php bloginfo('url');?>/?page_id=52"><img src="<?php bloginfo('template_url')?>/images/content/icons/security.png" />Security</a></li>
-                                    <li style="font-size:14px"><a href="<?php bloginfo('url');?>/?page_id=58"><img src="<?php bloginfo('template_url')?>/images/content/icons/solution_inf.png" />IT Management</a></li>
+                                    <li style="font-size:14px;"><a href="<?php bloginfo('url');?>/?page_id=37"><img src="<?php bloginfo('template_url')?>/images/content/icons/network.png" /><?php _e("Network","wedo"); ?></a></li>
+                                    <li style="font-size:14px"><a href="<?php bloginfo('url');?>/?page_id=44"><img src="<?php bloginfo('template_url')?>/images/content/icons/storage.png" /><?php _e("Storage","wedo"); ?>Storage</a></li>
+                                    <li style="font-size:14px"><a href="<?php bloginfo('url');?>/?page_id=52"><img src="<?php bloginfo('template_url')?>/images/content/icons/security.png" /><?php _e("Security","wedo"); ?>Security</a></li>
+                                    <li style="font-size:14px"><a href="<?php bloginfo('url');?>/?page_id=58"><img src="<?php bloginfo('template_url')?>/images/content/icons/solution_inf.png" /><?php _e("IT Management","wedo"); ?></a></li>
                                 </ul>
                             </div>
                             <div class="sidebar-widget">
-                                <h1>Links</h1>
+                                <h1><?php _e("Links","wedo"); ?></h1>
                                 <ul class="">
                                     <?php 
                                         $bookmarks = get_bookmarks(array("category" => '5'));

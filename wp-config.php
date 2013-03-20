@@ -22,7 +22,7 @@ define('DB_NAME', 'wedoweb');
 define('DB_USER', 'root');
 
 /** MySQL 数据库密码 */
-define('DB_PASSWORD', 'p@ssw0rd');
+define('DB_PASSWORD', 'loveyuanyuan');
 
 /** MySQL 主机 */
 define('DB_HOST', 'localhost');
