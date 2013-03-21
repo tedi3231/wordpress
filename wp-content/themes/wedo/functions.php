@@ -27,6 +27,12 @@ function wedo_setup() {
 	// Make theme available for translation
 	// Translations can be filed in the /languages/ directory
 	load_theme_textdomain( 'wedo', get_template_directory() . '/languages' );
+
+   	// This theme uses wp_nav_menu() in one location.
+	register_nav_menus( array(
+		'primary' => __( 'Primary Navigation', 'wedo' ),
+	) );
+
 }
 endif;
 

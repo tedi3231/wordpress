@@ -1,14 +1,14 @@
 <?php
    /**
     *My first custom template
-    *Template name:Infrastructure
+    *Template name:Applications
     */
 ?>
 <?php get_header();?>
 
         <!-- START TOP -->
         <div class="top-single">
-            <img src="<?php bloginfo("template_url"); ?>/images/banner1.png"></div>
+            <img src="<?php bloginfo("template_url"); ?>/images/banner2.png"></div>
         </div>
         <!-- END TOP -->
 
@@ -33,12 +33,11 @@
                     <div class="grid_3">
                         <div class="sidebar-top">
                             <div class="sidebar-widget">
-                                <h1><?php _e("Infrastructure","wedo"); ?></h1>
+                                <h1><?php _e("Applications","wedo"); ?></h1>
                                 <ul class="">
-                                    <li style="font-size:14px;"><a href="<?php bloginfo('url');?>/?page_id=37"><img src="<?php bloginfo('template_url')?>/images/content/icons/network.png" /><?php _e("Network","wedo"); ?></a></li>
-                                    <li style="font-size:14px"><a href="<?php bloginfo('url');?>/?page_id=44"><img src="<?php bloginfo('template_url')?>/images/content/icons/storage.png" /><?php _e("Storage","wedo"); ?></a></li>
-                                    <li style="font-size:14px"><a href="<?php bloginfo('url');?>/?page_id=52"><img src="<?php bloginfo('template_url')?>/images/content/icons/security.png" /><?php _e("Security","wedo"); ?></a></li>
-                                    <li style="font-size:14px"><a href="<?php bloginfo('url');?>/?page_id=58"><img src="<?php bloginfo('template_url')?>/images/content/icons/solution_inf.png" /><?php _e("IT Management","wedo"); ?></a></li>
+                                    <li style="font-size:14px;"><a href="<?php bloginfo('url');?>/?page_id=37"><img src="<?php bloginfo('template_url')?>/images/content/icons/Workflow.png" /><?php _e("Workflow","wedo"); ?></a></li>
+                                    <li style="font-size:14px"><a href="<?php bloginfo('url');?>/?page_id=44"><img src="<?php bloginfo('template_url')?>/images/content/icons/T&amp;E.png" /><?php _e("T&E Expense","wedo"); ?></a></li>
+                                    <li style="font-size:14px"><a href="<?php bloginfo('url');?>/?page_id=52"><img src="<?php bloginfo('template_url')?>/images/content/icons/solution_inf.png" /><?php _e("Solutions","wedo"); ?></a></li> 
                                 </ul>
                             </div>
                             <div class="sidebar-widget">

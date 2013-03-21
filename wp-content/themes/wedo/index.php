@@ -10,7 +10,7 @@
             </div>
             <div class="grid_3">
                 <br />
-                <a class="teaser-button" href="<?php bloginfo('url');?>/?page_id=5">Detail</a>
+                <a class="teaser-button" href="<?php bloginfo('url');?>/?page_id=5"><?php _e("DETAIL","wedo"); ?></a>
             </div>
         </div>
     </div>

@@ -80,8 +80,11 @@ function qtrans_generateLanguageSelectCode($style='', $id='') {
 			echo '<ul class="qtrans_language_chooser" id="'.$id.'">';
 			foreach(qtrans_getSortedLanguages() as $language) {
 				$classes = array('lang-'.$language);
-				if($language == $q_config['language'])
+				if($language == $q_config['language']){
 					$classes[] = 'active';
+					//continue;
+				}
+					
 				echo '<li class="'. implode(' ', $classes) .'"><a href="'.qtrans_convertURL($url, $language).'"';
 				// set hreflang
 				echo ' hreflang="'.$language.'" title="'.$q_config['language_name'][$language].'"';
@@ -101,7 +104,13 @@ function qtrans_generateLanguageSelectCode($style='', $id='') {
 				echo "lc.parentNode.insertBefore(s,lc);";
 				// create dropdown fields for each language
 				foreach(qtrans_getSortedLanguages() as $language) {
-					echo qtrans_insertDropDownElement($language, qtrans_convertURL($url, $language), $id);
+					if($language == $q_config['language']){
+						$classes[] = 'active';
+						//continue;
+					}
+					else{
+						echo qtrans_insertDropDownElement($language, qtrans_convertURL($url, $language), $id);
+					}
 				}
 				// hide html language chooser text
 				echo "s.onchange = function() { document.location.href = this.value;}\n";

@@ -29,6 +29,7 @@
 	$args = array(
 		'taxonomy' =>'link_category',
 		'show_count'   => 10,
+		'exclude' =>'5',
 		'hide_empty'   => 0,
                 'orderby'=>'name',
                 'order'=>'DESC'

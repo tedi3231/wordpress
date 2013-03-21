@@ -447,6 +447,18 @@ msgstr "安全"
 msgid "IT Management"
 msgstr "IT管理"
 
+msgid "Applications"
+msgstr "开发应用"
+
+msgid "Workflow Product"
+msgstr "工作流产品"
+
+msgid "T&E Expense"
+msgstr "报销申请"
+
+msgid "Solutions"
+msgstr "解决方案"
+
 msgid "About Wedoapp"
 msgstr "关于我们"
 
@@ -459,12 +471,21 @@ msgstr "联系我们"
 msgid "Links"
 msgstr "友情链接"
 
-#首页内容的翻译
+#index_header
 msgid "WEDOAPP INFRASTRUCTURE"
 msgstr "维度基础架构"
 
 msgid "WEDOAPP APPLICATIONS"
 msgstr "维度应用程序"
+
+msgid "DETAIL"
+msgstr "详细内容"
+
+msgid "Read More"
+msgstr "更多"
+
+msgid "WEDOAPP today announced that it has executed an acquisition agreement with FarPoint Technologies, developer of world’s best selling and award-winning spreadsheet software components for Microsoft’s development platform."
+msgstr "WEDOAPP today announced that it has executed an acquisition agreement with FarPoint Technologies, developer of world’s best selling and award-winning spreadsheet software components for Microsoft’s development platform."
 
 #footer
 msgid "Quick navigation"
@@ -481,3 +502,5 @@ msgstr "公司地址"
 
 msgid "12A , Yan Dang Plaza, No.107, Yan Dang Rd, Shanghai 200020, China."
 msgstr "中国上海市雁荡路107号雁荡大厦12楼A座,邮编：2000020"
+
+#
