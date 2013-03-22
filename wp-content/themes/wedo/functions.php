@@ -39,11 +39,20 @@ function wedo_setup() {
    		if (function_exists('qtrans_getLanguage')) {
       		foreach ($menu_items as &$item) {
       		//home menu url with language
-         	if ($item->url == '#blog') {
+      		if(!strpos($item->url,'&lang=')){
+      			$lang = qtrans_getLanguage();
+      			if( strpos($item->url,'/?') ){
+      				$item->url = $item->url . '&lang=' .$lang;
+      			}else{
+      				$item->url = $item->url . '?lang='.$lang;
+      			}
+      		}
+
+         	/*if ($item->url == '#blog') {
 	            $lang = qtrans_getLanguage();
 	            if ($lang == 'zh') $item->url = $item->url .'?lang=zh&test';
 	            if ($lang == 'en') $item->url = '?lang=en';
- 	        }
+ 	        }*/
       	}
     	return $menu_items;
     	}
