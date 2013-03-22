@@ -35,7 +35,7 @@
                 <div class="grid_6 jcycle-slider-item-text">
                         <h1>WEDOApp维度云计算</h1>
                         <h1> Computing Cloud</h1>
-                        <span> <?php _e("VMware offers you an evolutionary and practical path to this new model, with solutions that harness the power of the cloud while ensuring security and preserving the value of your existing technology investments.","wedo");?><a href="<?php bloginfo('url');?>/?page_id=24" class="slider-readmore"><?php _e("Read More","wedo"); ?> »</a></span>
+                        <span> <?php _e("VMware offers you an evolutionary and practical path to this new model, with solutions that harness the power of the cloud while ensuring security and preserving the value of your existing technology investments.","wedo");?><a href="<?php formaturlwithlanguage('?page_id=24');?>" class="slider-readmore"><?php _e("Read More","wedo"); ?> »</a></span>
                 </div>
                 <div class="grid_6 jcycle-slider-item-image">
                         <img src="<?php bloginfo('template_url'); ?>/images/content/jcycle/bg1.png" alt=""/>

@@ -1,5 +1,32 @@
 <?php
     
+function wedo_test(){
+	return 'wedo';
+}
+
+function formaturlwithlanguage($url)
+{
+	$rooturl = site_url();
+
+	if( strpos($rooturl,'/')){
+		$url = $rooturl . $url;
+	}
+	else{
+		$url = $rooturl . '/' . $url;
+	}
+
+	if( function_exists('qtrans_getLanguage')){
+		$lang = qtrans_getLanguage();
+		if(strrpos($url,'/') == (strlen($url)-1))
+			$url = $url . '?lang=' . $lang;
+		else
+			$url = $url . '&lang=' . $lang;
+	}
+
+
+	echo $url;
+}
+
 /** Tell WordPress to run twentyten_setup() when the 'after_setup_theme' hook is run. */
 add_action( 'after_setup_theme', 'wedo_setup' );
 
@@ -38,20 +65,19 @@ function wedo_setup() {
    		//print_r($menu_items); if you need to see them
    		if (function_exists('qtrans_getLanguage')) {
       		foreach ($menu_items as &$item) {
-      		//home menu url with language
-      		if(!strpos($item->url,'&lang=') && !strpos($item->url,'/?lang=') ){
-      			$lang = qtrans_getLanguage();
-      			if( strpos($item->url,'/?') ){
-      				$item->url = $item->url . '&lang=' .$lang;
-      			}else{
-      				$item->url = $item->url . '?lang='.$lang;
-      			}
-      		}
+	      		//home menu url with language
+	      		if(!strpos($item->url,'&lang=') && !strpos($item->url,'/?lang=') ){
+	      			$lang = qtrans_getLanguage();
+	      			if( strpos($item->url,'/?') ){
+	      				$item->url = $item->url . '&lang=' .$lang;
+	      			}else{
+	      				$item->url = $item->url . '?lang='.$lang;
+	      			}
+	      		}
       	}
     	return $menu_items;
     	}
 	}
 }
 endif;
-
 ?>

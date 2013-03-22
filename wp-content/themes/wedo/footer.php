@@ -10,12 +10,13 @@
                 <div class="grid_3">
                     <h1><?php _e("Quick navigation","wedo") ?></h1>
                     <ul class="footer-list">
-                        <li class="two-col"><a href="/"><?php _e("Home","wedo") ?></a></li>
-                        <li class="two-col"><a href="<?php bloginfo('url');?>/?page_id=5"><?php _e("About Wedoapp","wedo") ?></a></li>
-                        <li class="two-col"><a href="<?php bloginfo('url');?>/?page_id=24"><?php _e("Infrastructure","wedo") ?></a></li>
-                        <li class="two-col"><a href="<?php bloginfo('url');?>/?page_id=80"><?php _e("Applications","wedo") ?></a></li>
-                        <li class="two-col"><a href="<?php bloginfo('url');?>/?taxonomy=link_category&term=partner_integrated"><?php _e("Partners","wedo") ?></a></li>
-                        <li class="two-col"><a href="<?php bloginfo('url'); ?>/?page_id=7"><?php _e("Contact","wedo") ?></a></li>
+                        <li class="two-col"><a href="<?php formaturlwithlanguage('/');?>"><?php _e("Home","wedo") ?>
+                        </a></li>
+                        <li class="two-col"><a href="<?php formaturlwithlanguage('?page_id=5');?>"><?php _e("About Wedoapp","wedo") ?></a></li>
+                        <li class="two-col"><a href="<?php formaturlwithlanguage('?page_id=24');?>"><?php _e("Infrastructure","wedo") ?></a></li>
+                        <li class="two-col"><a href="<?php formaturlwithlanguage('?page_id=80');?>"><?php _e("Applications","wedo") ?></a></li>
+                        <li class="two-col"><a href="<?php formaturlwithlanguage('?taxonomy=link_category&term=partner_integrated');?>"><?php _e("Partners","wedo") ?></a></li>
+                        <li class="two-col"><a href="<?php formaturlwithlanguage('?page_id=7'); ?>"><?php _e("Contact","wedo") ?></a></li>
                     </ul>
                 </div>
                 <div class="grid_3">
