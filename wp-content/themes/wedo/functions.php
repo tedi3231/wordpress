@@ -47,12 +47,6 @@ function wedo_setup() {
       				$item->url = $item->url . '?lang='.$lang;
       			}
       		}
-
-         	/*if ($item->url == '#blog') {
-	            $lang = qtrans_getLanguage();
-	            if ($lang == 'zh') $item->url = $item->url .'?lang=zh&test';
-	            if ($lang == 'en') $item->url = '?lang=en';
- 	        }*/
       	}
     	return $menu_items;
     	}
