@@ -38,10 +38,11 @@ function wedo_setup() {
    		//print_r($menu_items); if you need to see them
    		if (function_exists('qtrans_getLanguage')) {
       		foreach ($menu_items as &$item) {
+      		//home menu url with language
          	if ($item->url == '#blog') {
 	            $lang = qtrans_getLanguage();
-	            if ($lang == 'zh') $item->url = '中文链接';
-	            if ($lang == 'en') $item->url = '英文链接';
+	            if ($lang == 'zh') $item->url = $item->url .'?lang=zh&test';
+	            if ($lang == 'en') $item->url = '?lang=en';
  	        }
       	}
     	return $menu_items;
