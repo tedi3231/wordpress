@@ -33,20 +33,20 @@ function wedo_setup() {
 		'primary' => __( 'Primary Navigation', 'wedo' ),
 	) );
 
-	add_filter('wp_nav_menu_objects','wp_nav_menu_objects_tip');
-	function wp_nav_menu_objects_tip($menu_items){
-		if( function_exists('qtrans_getLanguage')){
-			foreach ($menu_items as $item) {
-				if($item->url == '#blog'){
-					$lang = qtrans_getLanguage();
-					if( $lang == 'zh') $item->url = bloginfo('url').'?Lang=zh';
-					if( $lang == 'en') $item->url = bloginfo('url').'lang=en';
-				}
-			}
-		}
-		return menu_items;
+	add_filter('wp_nav_menu_objects', 'wp_nav_menu_objects_tip');
+	function wp_nav_menu_objects_tip($menu_items) {
+   		//print_r($menu_items); if you need to see them
+   		if (function_exists('qtrans_getLanguage')) {
+      		foreach ($menu_items as &$item) {
+         	if ($item->url == '#blog') {
+	            $lang = qtrans_getLanguage();
+	            if ($lang == 'zh') $item->url = '中文链接';
+	            if ($lang == 'en') $item->url = '英文链接';
+ 	        }
+      	}
+    	return $menu_items;
+    	}
 	}
-
 }
 endif;
 
