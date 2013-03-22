@@ -39,7 +39,7 @@ function wedo_setup() {
    		if (function_exists('qtrans_getLanguage')) {
       		foreach ($menu_items as &$item) {
       		//home menu url with language
-      		if(!strpos($item->url,'&lang=')){
+      		if(!strpos($item->url,'&lang=') && !strpos($item->url,'/?lang=') ){
       			$lang = qtrans_getLanguage();
       			if( strpos($item->url,'/?') ){
       				$item->url = $item->url . '&lang=' .$lang;
