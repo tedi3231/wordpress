@@ -25,7 +25,7 @@ define('DB_USER', 'tedi');
 define('DB_PASSWORD', 'p@ssw0rd');
 
 /** MySQL 主机 */
-define('DB_HOST', '192.1.8.231');
+define('DB_HOST', '192.1.8.7');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
