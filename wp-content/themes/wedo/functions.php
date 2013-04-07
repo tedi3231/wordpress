@@ -22,8 +22,6 @@ function formaturlwithlanguage($url)
 		else
 			$url = $url . '&lang=' . $lang;
 	}
-
-
 	echo $url;
 }
 
