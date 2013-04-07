@@ -35,7 +35,7 @@
                             <div class="sidebar-widget">
                                 <h1><?php _e("Applications","wedo"); ?></h1>
                                 <ul class="">
-                                    <li style="font-size:14px;"><a href="<?php formaturlwithlanguage('?page_id=84');?>"><img src="<?php bloginfo('template_url')?>/images/content/icons/Workflow.png" /><?php _e("Workflow","wedo"); ?></a></li>
+                                    <li style="font-size:14px;"><a href="<?php formaturlwithlanguage('?page_id=84');?>"><img src="<?php bloginfo('template_url')?>/images/content/icons/workflow.png" /><?php _e("Workflow","wedo"); ?></a></li>
                                     <!--<li style="font-size:14px"><a href="<?php formaturlwithlanguage('?page_id=44');?>"><img src="<?php bloginfo('template_url')?>/images/content/icons/T&amp;E.png" /><?php _e("T&E Expense","wedo"); ?></a></li>
                                     <li style="font-size:14px"><a href="<?php formaturlwithlanguage('?page_id=52');?>"><img src="<?php bloginfo('template_url')?>/images/content/icons/solution_inf.png" /><?php _e("Solutions","wedo"); ?></a></li>--> 
                                 </ul>
