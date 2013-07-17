@@ -24,7 +24,7 @@
                 <h2 style="text-align:left;padding-left:35px;";><?php _e("WEDOAPP INFRASTRUCTURE","wedo") ?></h2>
                 <img src="<?php bloginfo('template_url');?>/images/content/icons/home/64/infrastructure.png" alt=""/>
                 <p>
-                    Amplify your datacenter’s efficiency and agility while enhancing security and control with a private cloud from VMware. Consolidate datacenters and deploy workloads on shared infrastructure with built-in security and role-based access control. Migrate workloads between pools of infrastructure and integrate existing management systems using customer extensions, APIs, and open cross-cloud standards.
+Businesses want IT to be more flexible and responsive, but also improve efficiency and control costs. VMware, the customer-proven leader in virtualization and cloud infrastructure, delivers solutions that enable organizations to lower costs, increase business agility and ensure freedom of choice. Our solutions allow enterprises to accelerate their transition to the cloud and adopt a more efficient, agile service delivery model—IT as a Service.
                 </p>
             </div>
         </div>
@@ -55,3 +55,4 @@
 <!-- END FEATURE -->
 
 <?php get_footer();?>
+                <p>

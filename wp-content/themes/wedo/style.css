@@ -8,3 +8,6 @@
 body{
 		margin:0;
 }
+p.indent{
+	text-indent:2em;
+}

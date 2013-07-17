@@ -2,6 +2,7 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/colorpicker/css/colorpicker.css"/>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/colorpicker/css/layout.css"/>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css"/>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/grid.css"/>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/ddsmoothmenu.css"/>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/tipTip.css"/>
