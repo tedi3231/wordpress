@@ -1,14 +1,14 @@
 <?php
    /**
     *My first custom template
-    *Template name:Applications
+    *Template name:Infrastructure
     */
 ?>
 <?php get_header();?>
 
         <!-- START TOP -->
         <div class="top-single">
-            <img src="<?php bloginfo("template_url"); ?>/images/banner2.png"></div>
+            <img src="<?php bloginfo("template_url"); ?>/images/banner1.png"></div>
         </div>
         <!-- END TOP -->
 
@@ -32,30 +32,29 @@
                 <div class="sidebar  sidebar-right">
                     <div class="grid_3">
                         <div class="sidebar-top">
-                            <?php 
+                            <div class="sidebar-widget">
+                                <h1><?php _e("Infrastructure","wedo"); ?></h1>
+                                <?php 
                                   $params = array(
                                       'post_type'=>'page',
                                       'post_parent'=> get_post()->ID,
                                    );
-                                   $title =  qtrans_use($q_config['language'],  get_post()->post_title, true);
                                    $staff = query_posts($params);
                                    if( count($staff)<= 0){
-                                    $parentid = get_post()->post_parent;
-                                    $title = qtrans_use($q_config['language'],get_post($parentid)->post_title, true);
-                                    $params['post_parent'] = $parentid;
+                                    $params['post_parent'] = get_post()->post_parent;
                                     $staff = query_posts($params);
                                    }
                                    if( count($staff)> 0){
                             ?>
-                            <div class="sidebar-widget">                                
-                                <h1><?php echo $title; ?></h1>                                
+                            <div class="sidebar-widget">
+                                <h1><?php _e("Applications","wedo"); ?></h1>                                
                                 <ul class="">
                                   <?php                                     
                                     foreach ($staff as $bookmark ) :
                                   ?>
                                    <li style="font-size:14px;">
                                         <a href="<?php formaturlwithlanguage('?page_id='.$bookmark->ID);?>">
-                                            <?php  echo qtrans_use($q_config['language'],$bookmark->post_title, true);?>
+                                            <?php  echo $bookmark->post_title;?>
                                         </a>
                                     </li>
                                     <?php
@@ -64,6 +63,7 @@
                                 </ul> 
                             </div>
                             <?php }?>
+                            </div>
                             <div class="sidebar-widget">
                                 <h1><?php _e("Links","wedo"); ?></h1>
                                 <ul class="">
@@ -77,7 +77,7 @@
                                     </li>
                                     <?php
                                         endforeach;
-                                    ?>                                     
+                                    ?> 
                                 </ul>
                             </div>
                         <div class="sidebar-bottom"></div>

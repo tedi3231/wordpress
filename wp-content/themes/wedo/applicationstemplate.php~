@@ -55,7 +55,7 @@
                                   ?>
                                    <li style="font-size:14px;">
                                         <a href="<?php formaturlwithlanguage('?page_id='.$bookmark->ID);?>">
-                                            <?php  echo qtrans_use($q_config['language'],$bookmark->post_title, true);?>
+                                            <?php  echo $bookmark->post_title;?>
                                         </a>
                                     </li>
                                     <?php

@@ -32,15 +32,40 @@
                 <div class="sidebar  sidebar-right">
                     <div class="grid_3">
                         <div class="sidebar-top">
-                            <div class="sidebar-widget">
-                                <h1><?php _e("Infrastructure","wedo"); ?></h1>
+                             
+                                 <?php 
+                                  $params = array(
+                                      'post_type'=>'page',
+                                      'post_parent'=> get_post()->ID,
+                                   );
+                                   $title =  qtrans_use($q_config['language'],  get_post()->post_title, true);
+                                   $staff = query_posts($params);
+                                   if( count($staff)<= 0){
+                                    $parentid = get_post()->post_parent;
+                                    $title = qtrans_use($q_config['language'],get_post($parentid)->post_title, true);
+                                    $params['post_parent'] = $parentid;
+                                    $staff = query_posts($params);
+                                   }
+                                   if( count($staff)> 0){
+                            ?>
+                            <div class="sidebar-widget">                                
+                                <h1><?php echo $title; ?></h1>                                
                                 <ul class="">
-                                    <li style="font-size:14px;"><a href="<?php formaturlwithlanguage('?page_id=37');?>"><img src="<?php bloginfo('template_url')?>/images/content/icons/network.png" /><?php _e("Network","wedo"); ?></a></li>
-                                    <li style="font-size:14px"><a href="<?php formaturlwithlanguage('?page_id=44');?>"><img src="<?php bloginfo('template_url')?>/images/content/icons/storage.png" /><?php _e("Storage","wedo"); ?></a></li>
-                                    <li style="font-size:14px"><a href="<?php formaturlwithlanguage('?page_id=52');?>"><img src="<?php bloginfo('template_url')?>/images/content/icons/security.png" /><?php _e("Security","wedo"); ?></a></li>
-                                    <li style="font-size:14px"><a href="<?php formaturlwithlanguage('?page_id=58');?>"><img src="<?php bloginfo('template_url')?>/images/content/icons/solution_inf.png" /><?php _e("IT Management","wedo"); ?></a></li>
-                                </ul>
+                                  <?php                                     
+                                    foreach ($staff as $bookmark ) :
+                                  ?>
+                                   <li style="font-size:14px;">
+                                        <a href="<?php formaturlwithlanguage('?page_id='.$bookmark->ID);?>">
+                                            <?php  echo qtrans_use($q_config['language'],$bookmark->post_title, true);?>
+                                        </a>
+                                    </li>
+                                    <?php
+                                        endforeach;
+                                    ?>
+                                </ul> 
                             </div>
+                            <?php }?>
+                             
                             <div class="sidebar-widget">
                                 <h1><?php _e("Links","wedo"); ?></h1>
                                 <ul class="">
